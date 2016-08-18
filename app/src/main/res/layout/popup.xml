@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/congrat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="#cc2900"
+            android:id="@+id/textView6"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play again"
+                android:id="@+id/button2"
+                android:background="@drawable/button_shape_blue"
+                android:onClick="playAgainClick"
+                android:textColor="#ffffff"
+                android:textStyle="italic"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/button3"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/button_shape_blue"
+                android:onClick="cancelClick"
+                android:textColor="#ffffff"
+                android:textStyle="italic"/>
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
